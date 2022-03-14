@@ -1,6 +1,8 @@
 const Bedroom = (props) => {
   return ( 
-    <h1>BedRoom</h1>
+    <div>
+      <h1>BedRoom</h1>
+    </div>
   );
 }
 
