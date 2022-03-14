@@ -42,3 +42,30 @@ div {
   margin: 5px;
   padding: 5px;
 }
+
+h1 {
+  color: white;
+}
+
+.bedroom {
+  background-color: blue;
+}
+
+.bath {
+  background-color: green;
+}
+
+.kitchen {
+  background-color: orange;
+}
+
+.oven {
+  background-color: red;
+}
+.sink {
+  background-color: brown;
+}
+
+.livingroom {
+  background-color: lightsalmon;
+}
