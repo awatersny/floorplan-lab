@@ -6,13 +6,13 @@ import Bath from "./Bath";
 const FloorPlan = (props) => {
   return ( 
     <div>
-      <Bedroom />
+      <Bedroom name='Bedroom 1' />
       <Kitchen />
-      <Bath />
-      <Bedroom />
+      <Bath name='Full Bath' />
+      <Bedroom name='Bedroom 2' />
       <LivingRoom />
-      <Bath />
-      <Bedroom />
+      <Bath name='Half Bath' />
+      <Bedroom name='Bedroom 3' />
     </div>
   );
 }
