@@ -131,8 +131,9 @@ h1 {
 
 #kitchen-label{
   display: flex;
+  align-items: center;
   justify-content: center;
-  margin-top: 23vh;
+  height: 100%;
 }
 
 #oven{
