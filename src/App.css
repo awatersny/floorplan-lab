@@ -130,10 +130,22 @@ h1 {
   grid-area: ki;
 }
 
+#kitchen-label{
+  display: flex;
+  justify-content: center;
+  margin-top: 23vh;
+}
+
 #oven{
   grid-area: ov;
+  width: 50%
 }
 
 #sink{
   grid-area: si;
+  width: 50%;
+}
+
+#oven-sink {
+  display: flex;
 }
