@@ -69,3 +69,56 @@ h1 {
 .livingroom {
   background-color: lightsalmon;
 }
+
+#floor-plan {
+  display: grid;
+  grid-template-rows: repeat(10, 1fr);
+  grid-template-columns:  repeat(10, 1fr);
+  grid-template-areas: 
+  "b1 b1 b1 b1 lv lv lv lv ki ki"
+  "b1 b1 b1 b1 lv lv lv lv ki ki"
+  "b1 b1 b1 b1 lv lv lv lv ki ki"
+  "b1 b1 b1 b1 lv lv lv lv ki ki"
+  "fb fb fb fb lv lv lv lv ki ki"
+  "fb fb fb fb lv lv lv lv ki ki"
+  "b2 b2 b2 b2 hb hb b3 b3 b3 b3"
+  "b2 b2 b2 b2 hb hb b3 b3 b3 b3"
+  "b2 b2 b2 b2 hb hb b3 b3 b3 b3"
+  "b2 b2 b2 b2 hb hb b3 b3 b3 b3";
+}
+
+#bedroom1{
+  grid-area: b1;
+}
+
+#kitchen{
+  grid-area: ki;
+}
+
+#full-bath{
+  grid-area: fb;
+}
+
+#bedroom2{
+  grid-area: b2;
+}
+
+#living-room{
+  grid-area: lv;
+}
+
+#half-bath{
+  grid-area: hb;
+}
+
+#bedroom3{
+  grid-area: b3;
+}
+
+#oven{
+  grid-area: ov;
+}
+
+#sink{
+  grid-area: si;
+}

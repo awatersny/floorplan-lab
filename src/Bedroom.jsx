@@ -1,6 +1,6 @@
 const Bedroom = (props) => {
   return ( 
-    <div className='bedroom' >
+    <div id={props.id} className='bedroom' >
       <h1>{props.name}</h1>
     </div>
   );
