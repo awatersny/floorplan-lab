@@ -39,8 +39,6 @@
 
 div {
   border: 1px solid grey;
-  margin: 5px;
-  padding: 5px;
 }
 
 h1 {
@@ -49,10 +47,16 @@ h1 {
 
 .bedroom {
   background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .bath {
   background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .kitchen {
@@ -61,16 +65,27 @@ h1 {
 
 .oven {
   background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .sink {
   background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .livingroom {
   background-color: lightsalmon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #floor-plan {
+  padding: 2rem;
+  height: 100vh;
   display: grid;
   grid-template-rows: repeat(10, 1fr);
   grid-template-columns:  repeat(10, 1fr);
@@ -91,10 +106,6 @@ h1 {
   grid-area: b1;
 }
 
-#kitchen{
-  grid-area: ki;
-}
-
 #full-bath{
   grid-area: fb;
 }
@@ -113,6 +124,10 @@ h1 {
 
 #bedroom3{
   grid-area: b3;
+}
+
+#kitchen{
+  grid-area: ki;
 }
 
 #oven{
